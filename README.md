@@ -8,7 +8,7 @@ It highlights Java's strict type system and object-oriented approach to game loo
 
 This module represents the first phase of a full cricket simulation, focusing on single-user batting logic and score accumulation.
 
-##  Advanced Advanced Java Hand Cricket (Both Batting and Bowling) 
+##   Advanced Java Hand Cricket (Both Batting and Bowling) 
 
 A robust Command Line Interface (CLI) implementation of the popular "Hand Cricket" game. 
 Unlike basic versions, this simulator supports a full two-innings match where the user can choose to bat or bowl first and must defend or chase a target score.
