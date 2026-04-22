@@ -33,5 +33,5 @@ Unlike basic versions, this simulator supports a full two-innings match where th
 - Modular Methods: Uses a centralized `playInnings()` method to handle both batting and bowling phases, demonstrating code reusability.
 - Conditional Game States: Manages different logic for the "Target Setter" vs. the "Target Chaser."
 - Standard Libraries: - `java.util.Scanner`: For robust user input.
-                      - `java.util.Random`: For unpredictable CPU moves.
+-                     - `java.util.Random`: For unpredictable CPU moves.
 
