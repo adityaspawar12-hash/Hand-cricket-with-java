@@ -17,8 +17,8 @@ Unlike basic versions, this simulator supports a full two-innings match where th
                                         (Only Batting)
                                         
 - Dynamic Scoring Engine: Implements a real-time accumulator that tracks and displays total runs after every successful delivery.
-- Automated Bowler AI: Utilizes the java.util.Random class to generate unpredictable CPU moves within a calibrated 1–10 range.
-- Robust Error Handling: Employs Scanner.hasNextInt() and boundary checks to sanitize user inputs, preventing program crashes from non-      numeric or out-of-range data.
+- Automated Bowler AI: Utilizes the "java.util.Random" class to generate unpredictable CPU moves within a calibrated 1–10 range.
+- Robust Error Handling: Employs "Scanner.hasNextInt()" and boundary checks to sanitize user inputs, preventing program crashes from non-      numeric or out-of-range data.
 
                                   (Both Batting and Bowling)
                                   
