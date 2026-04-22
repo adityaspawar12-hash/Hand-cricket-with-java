@@ -14,7 +14,9 @@ A robust Command Line Interface (CLI) implementation of the popular "Hand Cricke
 Unlike basic versions, this simulator supports a full two-innings match where the user can choose to bat or bowl first and must defend or chase a target score.
 
 ##  Game Features
-
+                                        (Only Batting)
+Dynamic Scoring System: Implements a real-time accumulator that tracks and displays total runs after every successful delivery.Automated Bowler AI: Utilizes the java.util.Random class to generate unpredictable CPU moves within a calibrated $1-10$ range.Robust Error Handling: Employs Scanner.hasNextInt() and boundary checks to sanitize user inputs, preventing program crashes from non-numeric or out-of-range data.Suspenseful Gameplay Loop: Features a boolean-controlled while loop that maintains game state until a "Match" event (User Move == CPU Move) triggers the isOut condition.Intuitive CLI Interface: Designed with clean console formatting and visual delimiters for a clear and readable user experience.
+                                   (Both Batting and Bowling) 
 - Toss System: Choose to BAT or BOWL at the start of the game.
 - Full Two-Innings Logic: Tracks scores for both the User and the CPU.
 - Target Chasing: The game automatically detects when the chasing team surpasses the target and ends the match.
