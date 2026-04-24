@@ -6,7 +6,7 @@ public class HandCricket {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
 
-        System.out.println("=== 🏏 FULL MATCH HAND CRICKET 🏏 ===");
+        System.out.println(" FULL MATCH HAND CRICKET ");
         System.out.print("Do you want to BAT or BOWL first? (type 'bat' or 'bowl'): ");
         String choice = scanner.next().toLowerCase();
 
@@ -31,11 +31,11 @@ public class HandCricket {
         System.out.println("\n==============================");
         System.out.println("FINAL SCORE -> YOU: " + userScore + " | CPU: " + cpuScore);
         if (userScore > cpuScore) {
-            System.out.println("🏆 CONGRATULATIONS! YOU WON!");
+            System.out.println(" CONGRATULATIONS! YOU WON!");
         } else if (cpuScore > userScore) {
-            System.out.println("💻 COMPUTER WON! BETTER LUCK NEXT TIME.");
+            System.out.println(" COMPUTER WON! BETTER LUCK NEXT TIME.");
         } else {
-            System.out.println("🤝 IT'S A TIE!");
+            System.out.println(" IT'S A TIE!");
         }
         System.out.println("==============================");
 
@@ -60,7 +60,7 @@ public class HandCricket {
             System.out.println("Computer: " + cpuMove + " | You: " + userMove);
 
             if (userMove == cpuMove) {
-                System.out.println("☝️ OUT!");
+                System.out.println(" OUT!");
                 break;
             } else {
                 if (isUserBatting) score += userMove;
